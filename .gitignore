@@ -21,7 +21,7 @@ composer.lock
 dev/
 generated/
 grunt-config.json.sample
-grunt-config.json
+grunt-config.jsong
 lib/
 n98-magerun2-latest.phar
 n98-magerun2.phar
@@ -32,10 +32,10 @@ package.json
 package.json.sample
 phpserver/
 pub/
-setup/
 var/
 vendor/
 !dev/tools/grunt/configs/local-themes.js
 app/etc/
 app/autoload.php
 app/bootstrap.php
+./setup/
