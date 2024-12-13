@@ -21,6 +21,7 @@ composer.lock
 dev/
 generated/
 grunt-config.json.sample
+grunt-config.json
 lib/
 n98-magerun2-latest.phar
 n98-magerun2.phar
