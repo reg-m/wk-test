@@ -1,0 +1,14 @@
+<?php
+/**
+ * @var \Magento\Catalog\Block\Category\View $block
+ */
+
+$category = $block->getCurrentCategory();
+$subtitle = $category->getData('subtitle');
+?>
+
+<?php if ($subtitle): ?>
+    <div class="category-subtitle">
+        <?= /* @noEscape */ $subtitle ?>
+    </div>
+<?php endif; ?>
